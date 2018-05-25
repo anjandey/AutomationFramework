@@ -60,6 +60,7 @@ public class HomePageTest extends Base {
 		String actualTitle = driver.getTitle();
 		System.out.println(actualTitle);
 		//WaitForelementLoad(By.id("abc"));		
+		//HomePage_pg.lnk_MyAccount.click();
 		HomePage_pg.lnk_MyAccount.click();
 		
 		//LoginPage_pg.lnk_MyAccount.click();
