@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  
+  <configSections>
+    <section name="SeleniumApplicationTestData" type="Treasury.IRS.RICS.Automation.Shared.Configuration.SeleniumApplicationTestDataConfigSection, Treasury.IRS.RICS.Automation.Shared"/>
+    <sectionGroup name="TestSettingsGroup">
+      <section name="AssertionLabels" type="System.Configuration.AppSettingsSection, System.Configuration, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+      <section name="FrivInputExpectedData" type="System.Configuration.AppSettingsSection, System.Configuration, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    </sectionGroup>
+    <sectionGroup name="PageProperties">
+      <section name="PageElements" type="System.Configuration.AppSettingsSection, System.Configuration, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+      <section name="HomePageElements" type="System.Configuration.AppSettingsSection, System.Configuration, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    </sectionGroup>
+    <sectionGroup name="ExpectedData">
+      <section name="HomePageExpectedData" type="System.Configuration.AppSettingsSection, System.Configuration, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />     
+    </sectionGroup>
+    <sectionGroup name="TestData">
+      <section name="HomePageTestData" type="System.Configuration.AppSettingsSection, System.Configuration, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+      <section name="CasesTestData" type="System.Configuration.AppSettingsSection, System.Configuration, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+      <section name="TestData" type="System.Configuration.AppSettingsSection, System.Configuration, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+     
+    </sectionGroup>
+  </configSections>
+  <startup>
+    <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.5" />
+  </startup>
+
+  <SeleniumApplicationTestData>
+    <Sections>
+      <Section>
+        <Name>FRP - Tar Form</Name>
+        <Elements>
+          <Element>
+            <Key>tarListHeader</Key>
+            <Value>TAR List</Value>
+          </Element>
+          <Element>
+            <Key>newTar</Key>
+            <Value>New TAR</Value>
+          </Element>
+        </Elements>
+      </Section>
+      <Section>
+        <Name>FRIV Input Form</Name>
+      </Section>
+      <Section>
+        <Name>Test 3</Name>
+      </Section>
+    </Sections>
+  </SeleniumApplicationTestData>
+
+  <PageProperties>
+    <PageElements>
+      <!--Homet page-->
+      <add key="UserLevelLink_Xpath" value="//*[@id='navbar-main']/ul[2]/li/a/strong/span" />
+  </PageElements>
+  </PageProperties>
+
+  <ExpectedData>
+    <HomePageExpectedData>
+      <add key="IRS_UNAX_Text" value="THIS U.S. GOVERNMENT SYSTEM IS FOR AUTHORIZED USE ONLY" />
+      <add key="IRS_UNAX_Body" value="Use of this system constitutes consent to monitoring, interception, recording, reading, copying, or capturing, by authorized personnel, of all activities. There is no right to privacy in this system.Unauthorized use of this system is prohibited and subject to criminal and civil penalties including all penalties applicable to willful unauthorized access (UNAX) or inspection of taxpayer records under federal statutes 18 U.S.C. 1030 and 26 U.S.C. 7213A and 26 U.S.C. 7431." />
+      <add key="IRS_UNAX_Closebutton" value="Close"/>
+      <add key="HomePage" value="Home" />
+    </HomePageExpectedData>
+
+  </ExpectedData>
+
+  <TestData>
+    <HomePageTestData>
+      <!--Homet page-->
+      <add key="LeadNumber" value="089999 01" />
+      <add key="AccountStatusOpen" value="Open" />
+      <add key="AccountStatusInProgress" value="In Progress" />
+      <add key="AccountStatusComplete" value="Complete" />
+      <add key="AccountStatusReadyForReview" value="Ready For Review" />
+      <add key="AccountStatusSuspense" value="Suspense" />
+    </HomePageTestData>
+    
+     <CasesTestData>
+      <!--Account page-->
+      <add key="CasesTableDDL10" value="10" />
+      <add key="CasesTableDDL20" value="20" />
+      <add key="CasesTableDDL30" value="30" />
+      <add key="CasesTableDDL40" value="40" />
+      <add key="CasesTableDDL50" value="50" />
+    </CasesTestData>
+
+  </TestData>
+
+
+  <appSettings>
+    <!-- <add key="TestDataSheetPath" value="C:\RICS\Automation\Treasury.IRS.RICS.Automation.Bank\TestData\RICS_IRS_Bank_TestData.xlsx" /> -->
+   
+   <!-- <add key="TestDataSheetPath" value="E:\TestData\OldTestData\RICS_IRS_Bank_TestData.xlsx"/> -->
+    <add key="TestDataSheetPath" value="E:\TestData\RICS_IRS_Bank_TestData.xlsx"/> 
+    <!--<add key="TestDataSheetPath" value="E:\RICSTestData\RICS_IRS_Bank_TestData.xlsx"/>-->
+    <!-- <add key="fileName" value="Treasury.IRS.RICS.Automation.Bank/Utilities/TestData.xlsx"/> -->
+    <add key="Setting2" value="May 6, 2014" />
+    <add key="ClientSettingsProvider.ServiceUri" value="" />
+    <add key="DebugMode" value="False"/>
+    <add key="BaseAppURL_Localhost" value="http://localhost:51830/BMFIC"/>
+    <add key="BaseApplicationURL" value="http://rics2008r2web/BMFIC"/>
+    <add key ="SeleniumFilePath" value ="E:\Selenium\Drivers"/>
+    <add key ="SeverName" value="http://rics2008r2web"/>
+  
+  </appSettings>
+
+  <system.web>
+    <membership defaultProvider="ClientAuthenticationMembershipProvider">
+      <providers>
+        <add name="ClientAuthenticationMembershipProvider" type="System.Web.ClientServices.Providers.ClientFormsAuthenticationMembershipProvider, System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" serviceUri="" />
+      </providers>
+    </membership>
+    <roleManager defaultProvider="ClientRoleProvider" enabled="true">
+      <providers>
+        <add name="ClientRoleProvider" type="System.Web.ClientServices.Providers.ClientRoleProvider, System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" serviceUri="" cacheTimeout="86400" />
+      </providers>
+    </roleManager>
+  </system.web>
+
+</configuration>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="26.109" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_161\bin"/>
+    <property name="java.vm.version" value="25.161-b12"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\ANJAN\Downloads\Google.Gmail\Google.Gmail"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\ANJAN\Downloads\Google.Gmail\Google.Gmail"/>
+    <property name="java.runtime.version" value="1.8.0_161-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_161\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\ANJAN\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\ANJAN\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf8581761926355905865.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_161\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_161/bin/server;C:/Program Files/Java/jre1.8.0_161/bin;C:/Program Files/Java/jre1.8.0_161/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jdk1.8.0_121;C:\Program Files\apache-maven-3.3.9\bin;C:\Ruby22-x64\bin;C:\Program Files (x86)\Real\Runtimes\;C:\Program Files (x86)\Skype\Phone\;F:\Appium Software\;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\HashiCorp\Vagrant\bin;C:\Python27;C:\Python27\Scripts;C:\Terraform;;C:\Program Files (x86)\Gpg4win\..\GnuPG\bin;C:\Ruby22-x64\bin;C:\Ruby200\bin;C:\Users\ANJAN\AppData\Roaming\npm;C:\Users\ANJAN\AppData\Local\Microsoft\WindowsApps;C:\Terraform;;C:\Program Files\Microsoft VS Code\bin;C:\WINDOWS\System32;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\ANJAN"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="ANJAN"/>
+    <property name="java.class.path" value="C:\Users\ANJAN\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_1.8.2.20171007-0216\jars\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_161"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_161"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_161\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_161\lib\resources.jar;C:\Program Files\Java\jre1.8.0_161\lib\rt.jar;C:\Program Files\Java\jre1.8.0_161\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_161\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_161\lib\jce.jar;C:\Program Files\Java\jre1.8.0_161\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_161\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_161\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\ANJAN\Downloads\Google.Gmail\Google.Gmail\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="verifyHomePageTitle" classname="gmailApp.Scripts.HomePageTest" time="5.057">
+    <failure message="Unable to locate element: .//*[@id=&apos;account&apos;]/a&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;&#10;System info: host: &apos;ANJAN&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 56.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 25836, moz:profile: C:\Users\ANJAN\AppData\Loca..., pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, specificationLevel: 0, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}&#10;Session ID: e1ffaa7b-53e3-4d02-9923-4ee455f2238d&#10;*** Element info: {Using=xpath, value=.//*[@id=&apos;account&apos;]/a}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: .//*[@id='account']/a
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'ANJAN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 56.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 25836, moz:profile: C:\Users\ANJAN\AppData\Loca..., pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, specificationLevel: 0, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: e1ffaa7b-53e3-4d02-9923-4ee455f2238d
+*** Element info: {Using=xpath, value=.//*[@id='account']/a}
+	at gmailApp.Scripts.HomePageTest.verifyHomePageTitle(HomePageTest.java:63)
+</failure>
+    <system-out><![CDATA[180425_0100
+Welcome: Mercury Tours
+]]></system-out>
+    <system-err><![CDATA[1524632410890	geckodriver	INFO	geckodriver 0.20.0
+1524632410898	geckodriver	INFO	Listening on 127.0.0.1:41995
+1524632411610	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ANJAN\\AppData\\Local\\Temp\\rust_mozprofile.6OMjJStockn8"
+1524632411787	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1524632412534	Marionette	INFO	Enabled via --marionette
+[Child 7240] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7240] WARNING: pipe error: 109: file z:/build/build/src/ipc/1524632415233	Marionette	INFO	Listening on port 65475
+1524632415729	Marionette	WARN	TLS certificate errors will be ignored for this session
+1524632415797	Marionette	DEBUG	Register listener.js for window 4294967297
+Apr 25, 2018 1:00:15 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1524632415862	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1524632416185	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1524632416185	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1524632416574	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://newtours.demoaut.com/"
+1524632429208	Marionette	DEBUG	Received DOM event "pageshow" for "http://newtours.demoaut.com/"
+Apr 25, 2018 1:00:29 AM com.relevantcodes.extentreports.ExtentReports loadConfig
+WARNING: Unable to perform report configuration. The file C:\Users\ANJAN\Downloads\Google.Gmail\Google.Gmail\extent-config.xml was not found.
+]]></system-err>
+  </testcase>
+</testsuite>
